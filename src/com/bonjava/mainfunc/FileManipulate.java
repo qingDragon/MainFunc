@@ -1,5 +1,7 @@
 package com.bonjava.mainfunc;
 
-public interface FileManipulate {
+import java.util.ArrayList;
 
+public interface FileManipulate {
+	abstract ArrayList<String> readExcel(String filePath); 
 }
